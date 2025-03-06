@@ -90,7 +90,7 @@ if result:
     
     out_lang = st.selectbox(
         "Selecciona el lenguaje de salida",
-        ("Inglés", "Español", "Bengali", "Coreano", "Mandarín", "Japonés"),
+        ("Corso", "Dzongkha", "Fiji", "Galicia", "Gujarati", "Hausa"),
     )
     if out_lang == "Corso":
         output_language = "co"
