@@ -75,35 +75,35 @@ if result:
         "Selecciona el lenguaje de Entrada",
         ("Inglés", "Español", "Bengali", "Coreano", "Mandarín", "Japonés"),
     )
-    if in_lang == "Inglés":
-        input_language = "en"
-    elif in_lang == "Español":
-        input_language = "es"
-    elif in_lang == "Bengali":
-        input_language = "bn"
-    elif in_lang == "Coreano":
-        input_language = "ko"
-    elif in_lang == "Mandarín":
-        input_language = "zh-cn"
-    elif in_lang == "Japonés":
-        input_language = "ja"
+    if in_lang == "Corso":
+        input_language = "co"
+    elif in_lang == "Dzongkha":
+        input_language = "dz"
+    elif in_lang == "Fiji":
+        input_language = "fj"
+    elif in_lang == "Galicia":
+        input_language = "gl"
+    elif in_lang == "Gujarati":
+        input_language = "gu"
+    elif in_lang == "Hausa":
+        input_language = "Ha"
     
     out_lang = st.selectbox(
         "Selecciona el lenguaje de salida",
         ("Inglés", "Español", "Bengali", "Coreano", "Mandarín", "Japonés"),
     )
-    if out_lang == "Inglés":
-        output_language = "en"
-    elif out_lang == "Español":
-        output_language = "es"
-    elif out_lang == "Bengali":
-        output_language = "bn"
-    elif out_lang == "Coreano":
-        output_language = "ko"
-    elif out_lang == "Mandarín":
-        output_language = "zh-cn"
-    elif out_lang == "Japonés":
-        output_language = "ja"
+    if out_lang == "Corso":
+        output_language = "co"
+    elif out_lang == "Dzongkha":
+        output_language = "dz"
+    elif out_lang == "Fiji":
+        output_language = "fj"
+    elif out_lang == "Galicia":
+        output_language = "gl"
+    elif out_lang == "Gujarati":
+        output_language = "gu"
+    elif out_lang == "Hausa":
+        output_language = "ha"
     
     english_accent = st.selectbox(
         "Selecciona el acento",
