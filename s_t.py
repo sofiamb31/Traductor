@@ -23,7 +23,7 @@ image = Image.open('dora la exploradora.jpeg')
 
 st.image(image,width=300)
 with st.sidebar:
-    st.subheader("Traductor.")
+    st.subheader("Traductora.")
     st.write("Presiona el botón, cuando escuches la señal "
                  "habla lo que quieres traducir, luego selecciona"   
                  " la configuración de lenguaje que necesites y Dora lo traducira por ti.")
