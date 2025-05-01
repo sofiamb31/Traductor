@@ -96,13 +96,13 @@ if result:
         output_language = "co"
     elif out_lang == "Dzongkha":
         output_language = "dz"
-    elif in_lang == "Bengali":
+    elif out_lang == "Bengali":
         input_language = "bn"
-    elif in_lang == "Coreano":
+    elif out_lang == "Coreano":
         input_language = "ko"
-    elif in_lang == "Mandarín":
+    elif out_lang == "Mandarín":
         input_language = "zh-cn"
-    elif in_lang == "Japonés":
+    elif out_lang == "Japonés":
         input_language = "ja"
     
     english_accent = st.selectbox(
