@@ -16,17 +16,17 @@ from googletrans import Translator
 
 
 st.title("TRADUCTOR.")
-st.subheader("Escucho lo que quieres traducir.")
+st.subheader("Hola soy Dora y te enseño a hablar otros idiomas.")
 
 
-image = Image.open('OIG7.jpg')
+image = Image.open('dora la exploradora.jpeg')
 
 st.image(image,width=300)
 with st.sidebar:
     st.subheader("Traductor.")
     st.write("Presiona el botón, cuando escuches la señal "
                  "habla lo que quieres traducir, luego selecciona"   
-                 " la configuración de lenguaje que necesites.")
+                 " la configuración de lenguaje que necesites y Dora lo traducira por ti.")
 
 
 st.write("Toca el Botón y habla lo que quires traducir")
